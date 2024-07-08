@@ -1,0 +1,27 @@
+[shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "tmux"]
+
+[font]
+size = 12 
+
+[font.bold]
+family = "firacode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "firacode Nerd Font"
+style = "italic"
+
+[font.normal]
+family = "firacode Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 0.85
+blur = true
+dynamic_padding = true
+
+[colors]
+primary.background = "#000000" 
+transparent_background_colors = true
